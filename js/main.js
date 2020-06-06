@@ -3,7 +3,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 ScrollTrigger.defaults({
   toggleActions: 'restart pause reverse none',
-  markers: true
+  // markers: true
 })
 // You can use a ScrollTrigger in a tween or timeline
 gsap.to(".a", {
