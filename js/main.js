@@ -54,5 +54,19 @@ tl.to(".c", {
   x:100
 });
 
+gsap.to(".img", {
+  x: -1900,
+  y:-50,
+  rotation: 360,
+  scrollTrigger: {
+    trigger: ".c",
+    delay:1,
+    start: '200px 80%',
+    end: 'top 400px',
+    duration:6,
+    scrub: true,
+    pin:true,
+  }
+});
 
 
